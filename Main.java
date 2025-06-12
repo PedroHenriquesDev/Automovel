@@ -19,7 +19,7 @@ public class Main {
             opcao = sc.nextInt();
             sc.nextLine();
 
-            switch (opcao) {
+            switch(opcao){
                 case 1 -> {
                     System.out.print("Placa: ");
                     String placa = sc.nextLine();
