@@ -15,29 +15,37 @@ public class Automovel {
         this.valor = valor;
     }
 
-    public String getPlaca() {
+    public String getPlaca(){
         return placa;
     }
-    public String getModelo() {
+    public String getModelo(){
         return modelo;
     }
-    public String getMarca() {
+    public String getMarca(){
         return marca;
     }
-    public int getAno() {
+    public int getAno(){
         return ano;
     }
-    public double getValor() {
+    public double getValor(){
         return valor;
     }
 
-    public void setModelo(String modelo) { this.modelo = modelo; }
-    public void setMarca(String marca) { this.marca = marca; }
-    public void setAno(int ano) { this.ano = ano; }
-    public void setValor(double valor) { this.valor = valor; }
+    public void setModelo(String modelo){ 
+        this.modelo = modelo; 
+    }
+    public void setMarca(String marca){ 
+        this.marca = marca; 
+    }
+    public void setAno(int ano){ 
+        this.ano = ano; 
+    }
+    public void setValor(double valor){ 
+        this.valor = valor;
+    }
 
     @Override
-    public String toString() {
+    public String toString(){
         return String.format("Placa: %s | Modelo: %s | Marca: %s | Ano: %d | Valor: %.2f",
                 placa, modelo, marca, ano, valor);
     }
